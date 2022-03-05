@@ -295,3 +295,347 @@
 05-Mar-2022 14:55:23.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [7] ms
 05-Mar-2022 14:55:23.997 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 05-Mar-2022 14:55:24.005 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 383 ms
+05-Mar-2022 15:02:29.639 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:02:29.640 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:02:29.644 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:02:29.663 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:02:29.666 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:02:49.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:02:49.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:02:49.838 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:02:49.888 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:02:49.902 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 387 ms
+05-Mar-2022 15:02:49.923 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:02:49.923 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:02:49.934 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:02:50.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [186] ms
+05-Mar-2022 15:02:50.121 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:02:50.154 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [32] ms
+05-Mar-2022 15:02:50.154 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:02:50.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [162] ms
+05-Mar-2022 15:02:50.317 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:02:50.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [25] ms
+05-Mar-2022 15:02:50.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:02:50.352 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [10] ms
+05-Mar-2022 15:02:50.355 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:02:50.371 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 469 ms
+05-Mar-2022 15:07:59.393 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:07:59.393 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:07:59.396 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:07:59.416 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:07:59.418 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:08:17.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:08:17.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:08:17.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:08:17.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:08:17.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:08:17.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:08:17.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:08:17.533 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:08:17.534 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:08:17.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:08:17.535 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:08:17.535 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:08:17.588 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:08:17.606 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 403 ms
+05-Mar-2022 15:08:17.627 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:08:17.628 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:08:17.634 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:08:17.820 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [185] ms
+05-Mar-2022 15:08:17.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:08:17.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [20] ms
+05-Mar-2022 15:08:17.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:08:18.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [162] ms
+05-Mar-2022 15:08:18.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:08:18.018 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [13] ms
+05-Mar-2022 15:08:18.018 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:08:18.027 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [9] ms
+05-Mar-2022 15:08:18.032 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:08:18.068 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 461 ms
+05-Mar-2022 15:09:17.611 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:09:17.611 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:09:17.614 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:09:17.634 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:09:17.648 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:09:20.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:09:20.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:09:20.337 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:09:20.395 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:09:20.410 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 386 ms
+05-Mar-2022 15:09:20.431 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:09:20.431 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:09:20.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:09:20.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [189] ms
+05-Mar-2022 15:09:20.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:09:20.655 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [20] ms
+05-Mar-2022 15:09:20.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:09:20.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [140] ms
+05-Mar-2022 15:09:20.797 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:09:20.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [11] ms
+05-Mar-2022 15:09:20.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:09:20.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [9] ms
+05-Mar-2022 15:09:20.819 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:09:20.834 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 423 ms
+05-Mar-2022 15:10:13.317 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:10:13.317 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:10:13.319 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:10:13.339 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:10:13.346 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:10:15.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:10:15.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:10:15.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:10:15.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:10:15.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:10:15.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:10:15.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:10:15.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:10:15.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:10:15.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:10:15.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:10:15.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:10:15.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:10:15.177 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:10:15.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:10:15.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:10:15.185 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:10:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:10:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:10:15.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:10:15.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:10:15.238 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:10:15.260 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 409 ms
+05-Mar-2022 15:10:15.283 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:10:15.285 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:10:15.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:10:15.531 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [233] ms
+05-Mar-2022 15:10:15.531 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:10:15.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [25] ms
+05-Mar-2022 15:10:15.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:10:15.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [234] ms
+05-Mar-2022 15:10:15.791 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:10:15.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [16] ms
+05-Mar-2022 15:10:15.808 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:10:15.817 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [9] ms
+05-Mar-2022 15:10:15.820 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:10:15.839 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 578 ms
+05-Mar-2022 15:12:05.837 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+05-Mar-2022 15:12:05.837 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+05-Mar-2022 15:12:05.865 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+05-Mar-2022 15:17:10.951 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:17:10.951 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:10.953 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:17:10.971 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:10.979 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:12.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:17:12.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:17:12.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:17:12.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:17:12.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:17:12.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:17:12.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:17:12.866 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:17:12.867 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:17:12.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:12.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:12.869 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:17:12.869 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:17:12.921 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:12.936 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 386 ms
+05-Mar-2022 15:17:12.958 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:17:12.959 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:17:12.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:17:13.146 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [177] ms
+05-Mar-2022 15:17:13.147 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:17:13.175 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [28] ms
+05-Mar-2022 15:17:13.176 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:17:13.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [137] ms
+05-Mar-2022 15:17:13.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:17:13.333 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [20] ms
+05-Mar-2022 15:17:13.334 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:17:13.343 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [9] ms
+05-Mar-2022 15:17:13.345 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:13.362 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 425 ms
+05-Mar-2022 15:17:34.327 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:17:34.327 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:34.333 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:17:34.352 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:34.355 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:38.871 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:17:38.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:17:38.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:17:38.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:17:38.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:17:38.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:17:38.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:38.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:17:38.875 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:17:38.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:17:38.925 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:38.940 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 379 ms
+05-Mar-2022 15:17:38.964 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:17:38.965 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:17:38.974 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:17:39.161 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [186] ms
+05-Mar-2022 15:17:39.161 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:17:39.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [20] ms
+05-Mar-2022 15:17:39.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:17:39.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [131] ms
+05-Mar-2022 15:17:39.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:17:39.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [14] ms
+05-Mar-2022 15:17:39.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:17:39.335 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [9] ms
+05-Mar-2022 15:17:39.337 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:17:39.348 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 407 ms
+05-Mar-2022 15:19:24.970 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:19:24.970 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:24.972 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:19:24.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:24.995 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:26.726 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:19:26.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:19:26.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:19:26.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:19:26.727 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:26.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:26.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:19:26.729 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:19:26.778 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:26.795 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 426 ms
+05-Mar-2022 15:19:26.817 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:19:26.817 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:19:26.823 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:19:27.011 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [188] ms
+05-Mar-2022 15:19:27.011 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:19:27.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [19] ms
+05-Mar-2022 15:19:27.030 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:19:27.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [147] ms
+05-Mar-2022 15:19:27.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:19:27.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [13] ms
+05-Mar-2022 15:19:27.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:19:27.198 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [8] ms
+05-Mar-2022 15:19:27.200 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:27.226 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 430 ms
+05-Mar-2022 15:19:51.027 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:19:51.028 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:51.031 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:19:51.049 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:51.057 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:54.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+05-Mar-2022 15:19:54.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+05-Mar-2022 15:19:54.345 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Mar-2022 15:19:54.398 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:54.413 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 375 ms
+05-Mar-2022 15:19:54.441 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+05-Mar-2022 15:19:54.441 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+05-Mar-2022 15:19:54.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+05-Mar-2022 15:19:54.675 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [223] ms
+05-Mar-2022 15:19:54.676 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+05-Mar-2022 15:19:54.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [27] ms
+05-Mar-2022 15:19:54.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+05-Mar-2022 15:19:54.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [173] ms
+05-Mar-2022 15:19:54.876 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+05-Mar-2022 15:19:54.892 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [16] ms
+05-Mar-2022 15:19:54.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+05-Mar-2022 15:19:54.909 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [16] ms
+05-Mar-2022 15:19:54.913 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:19:54.926 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 512 ms
+05-Mar-2022 15:36:30.160 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Mar-2022 15:36:30.161 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:36:30.165 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+05-Mar-2022 15:36:30.182 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Mar-2022 15:36:30.186 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
