@@ -19,4 +19,17 @@
 <url-pattern>/calculator</url-pattern>
 </servlet-mapping>
 
+
+<servlet>
+<servlet-name>Database</servlet-name>
+<servlet-class>Database</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>Database</servlet-name>
+<url-pattern>/db</url-pattern>
+</servlet-mapping>
+
+
+
 </web-app>
