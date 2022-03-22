@@ -25,15 +25,14 @@ public class Database extends HttpServlet {
         // Initialize all the information regarding
         // Database Connection
         String dbDriver = "com.mysql.jdbc.Driver";
-        String dbURL = "jdbc:mysql://localhost:3306/";
+        String dbURL = "jdbc:mysql://localhost:3306/books?characterEncoding=utf8";
         // Database name to access
-        String dbName = "books";
+        // String dbName = "books";
         String dbUsername = "root";
-        String dbPassword = "root123";
+        String dbPassword = "Root123#";
 
         Class.forName(dbDriver);
-        this.conn = DriverManager.getConnection(dbURL + dbName,dbUsername,dbPassword);
-        
+        this.conn = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
 
     }
 
@@ -71,7 +70,7 @@ public class Database extends HttpServlet {
 
             // Create a SQL query to insert data into demo table
             // demo table consists of two columns, so two '?' is used
-            PreparedStatement st = this.conn.prepareStatement("select * from ebookshop");
+            PreparedStatement st = this.conn.prepareStatement("select * from ebookshop;");
 
             // For the first parameter,
             // get the data using request object
@@ -82,8 +81,6 @@ public class Database extends HttpServlet {
             ResultSet results = st.executeQuery();
 
             // Close all the connections
-            st.close();
-            this.conn.close();
 
             out.println("<html><body><h2>The Select query has following results : </h2>");
             out.println("<hr></br><table cellspacing='0' cellpadding='5' border='1'>");
@@ -105,10 +102,13 @@ public class Database extends HttpServlet {
                 out.println("</tr>");
 
             }
+            st.close();
+            this.conn.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public void destroy() {}
+    public void destroy() {
+    }
 }

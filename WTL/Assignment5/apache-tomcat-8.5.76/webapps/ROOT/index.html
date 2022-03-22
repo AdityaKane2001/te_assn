@@ -1,12 +1,16 @@
-
 <html>
-<head><title>Database</title></head>
-<h2>Database</h2>
 
-<form method="post" action="/db">
-    <input type="submit" value="Show DB">
-</form>
+<body>
+    <form action="../crud_home" method="post">
+        <h2>Select your task</h2>
+        <select name="task" id="task">
+            <option value="select">Select</option>
+            <option value="insert">Insert</option>
+            <option value="update">Update</option>
+            <option value="delete">Delete</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
 
 </html>
-<!-- <a href="hello?a=5&b=6">Invoke Generic Servlet</a> -->
-
