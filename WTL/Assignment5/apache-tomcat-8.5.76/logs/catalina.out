@@ -1208,3 +1208,50 @@ java.lang.NumberFormatException: null
 29-Mar-2022 15:24:41.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [55] ms
 29-Mar-2022 15:24:41.152 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 29-Mar-2022 15:24:41.160 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 606 ms
+29-Mar-2022 15:32:16.032 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+29-Mar-2022 15:32:16.032 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Mar-2022 15:32:16.033 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Mar-2022 15:32:16.059 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Mar-2022 15:32:16.068 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Mar-2022 15:32:55.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.76
+29-Mar-2022 15:32:55.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 23 2022 17:59:11 UTC
+29-Mar-2022 15:32:55.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.76.0
+29-Mar-2022 15:32:55.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+29-Mar-2022 15:32:55.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.22-100.fc32.x86_64
+29-Mar-2022 15:32:55.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Mar-2022 15:32:55.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-0.fc32.x86_64/jre
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_292-b10
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/conf/logging.properties
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Mar-2022 15:32:55.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+29-Mar-2022 15:32:55.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+29-Mar-2022 15:32:55.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+29-Mar-2022 15:32:55.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76
+29-Mar-2022 15:32:55.598 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/temp
+29-Mar-2022 15:32:55.598 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+29-Mar-2022 15:32:55.659 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Mar-2022 15:32:55.674 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 388 ms
+29-Mar-2022 15:32:55.695 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Mar-2022 15:32:55.695 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/8.5.76]
+29-Mar-2022 15:32:55.701 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT]
+29-Mar-2022 15:32:55.930 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2022 15:32:55.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/ROOT] has finished in [246] ms
+29-Mar-2022 15:32:55.947 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager]
+29-Mar-2022 15:32:56.018 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2022 15:32:56.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/host-manager] has finished in [75] ms
+29-Mar-2022 15:32:56.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples]
+29-Mar-2022 15:32:56.183 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2022 15:32:56.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/examples] has finished in [169] ms
+29-Mar-2022 15:32:56.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager]
+29-Mar-2022 15:32:56.248 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2022 15:32:56.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/manager] has finished in [58] ms
+29-Mar-2022 15:32:56.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs]
+29-Mar-2022 15:32:56.307 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+29-Mar-2022 15:32:56.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pict/31238/te_assn/WTL/Assignment5/apache-tomcat-8.5.76/webapps/docs] has finished in [58] ms
+29-Mar-2022 15:32:56.310 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Mar-2022 15:32:56.318 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 642 ms
