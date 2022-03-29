@@ -1,4 +1,3 @@
-
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -6,6 +5,7 @@ import java.sql.*;
 import java.nio.*;
 import java.nio.file.*;
 import java.nio.charset.*;
+import java.util.*;
 // import org.apache.commons.io.*;
 
 public class Insert extends HttpServlet {
@@ -33,14 +33,13 @@ public class Insert extends HttpServlet {
             out.println("    <body>");
             out.println("        <form action='/insert' method='post'>");
             out.println("            <label for='id'>Book Name</label>");
-            out.println("            <input type='text' id='book_name'> <br>");
+            out.println("            <input type='text' name='book_name' id='book_name'> <br>");
             out.println("            <label for='author_name'>Author Name</label>");
-            out.println("            <input type='text' id='author_name'><br>");
+            out.println("            <input type='text' id='author_name' name='author_name'><br>");
             out.println("            <label for='price'>Price</label>");
-            out.println("            <input type='text' id='price'><br>");
+            out.println("            <input type='text' id='price' name='price'><br>");
             out.println("            <label for='quantity'>Quantity</label>");
-            out.println("            <input type='text' id='quantity'><br>");
-            out.println("");
+            out.println("            <input type='text' id='quantity' name='quantity'><br>");
             out.println("            <input type='submit' value='Insert'>");
             out.println("        </form>");
             out.println("    </body>");
@@ -59,17 +58,18 @@ public class Insert extends HttpServlet {
             // String dbName = "books";
             String dbUsername = "root";
             String dbPassword = "Root123#";
-
             Class.forName(dbDriver);
 
             Connection conn = DriverManager.getConnection(dbURL, dbUsername, dbPassword);
-
+            PrintWriter out = response.getWriter();
             PreparedStatement st = conn
-                    .prepareStatement("insert into ebookshop values(?, ?, ?, ?);");
+                    .prepareStatement(
+                            "insert into ebookshop(book_title, book_author, book_price, quantity) values(?, ?, ?, ?);");
 
             // For the first parameter,
             // get the data using request object
             // sets the data to st pointer
+
             st.setString(1, request.getParameter("book_name"));
             st.setString(2, request.getParameter("author_name"));
             st.setInt(3, Integer.parseInt(request.getParameter("price")));
@@ -83,7 +83,7 @@ public class Insert extends HttpServlet {
             st.close();
             conn.close();
 
-            redirectTo("crud_home", response);
+            redirectTo("crud_home?task=select", response);
 
         } catch (Exception e) {
             e.printStackTrace();
