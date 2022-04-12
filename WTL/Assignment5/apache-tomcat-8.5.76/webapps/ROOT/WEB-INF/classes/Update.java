@@ -85,6 +85,9 @@ public class Update extends HttpServlet {
 
         } catch (Exception e) {
             e.printStackTrace();
+            PrintWriter out = response.getWriter();
+            out.println("<p style='color:red;'>Operation failed. Return home and try again</p>");
+            out.println("<a href='/index.html'>Home</a>");
         }
 
     }
